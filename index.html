@@ -1,764 +1,647 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Parish</title>
-    <link rel="shortcut icon" href="images/logoerc.jpg" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/bootstrap-grid.min.css" rel="stylesheet" />
-    <link href="css/bootstrap-reboot.min.css" rel="stylesheet" />
-    <link href="css/font-awesome.min.css" rel="stylesheet" />
-    <link href="css/erc_ui.css" rel="stylesheet" />
-    <link href="css/index.css" rel="stylesheet" />
-    <link href="css/animate.css" rel="stylesheet" />
-    <link href="fonts/style.css" rel="stylesheet" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
-    <link href="css/sweetalert.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Bebas+Neue|Catamaran&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body id="page-top" class="index">
-    <!-- NAVIGATION BAR STARTS-->
-    <div id="sticky-anchor"></div>
-    <nav
-      class="navbar fixed-top navbar-expand-lg navbar-light erc_navbar"
-      id="sticky"
-    >
-      <div class="container-fluid erc_container">
-        <a class="navbar-brand d-flex" href="#">
-          <img src="images/logoerc.png" height="48px" />
-          <span class="txt_subtitle fnt_black ml-3 mabo0 align-self-center"
-            >ERC Masoro</span
-          >
-        </a>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Parish</title>
+  <link rel="shortcut icon" href="images/logoerc.jpg" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link href="css/bootstrap-grid.min.css" rel="stylesheet" />
+  <link href="css/bootstrap-reboot.min.css" rel="stylesheet" />
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <link href="css/erc_ui.css" rel="stylesheet" />
+  <link href="css/index.css" rel="stylesheet" />
+  <link href="css/animate.css" rel="stylesheet" />
+  <link href="fonts/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+  <link href="css/sweetalert.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Bebas+Neue|Catamaran&display=swap" rel="stylesheet" />
+</head>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<body id="page-top" class="index">
+  <!-- NAVIGATION BAR STARTS-->
+  <div id="sticky-anchor"></div>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light erc_navbar" id="sticky">
+    <div class="container-fluid erc_container">
+      <a class="navbar-brand d-flex" href="#">
+        <img src="images/logoerc.png" height="48px" />
+        <span class="txt_subtitle fnt_black ml-3 mabo0 align-self-center">ERC Masoro</span>
+      </a>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link main_option active" href="#section_landing"
-                >Home <span class="sr-only">(current)</span></a
-              >
-            </li>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle main_option"
-                href=""
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-                >About Us
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="pages/about.html">Church</a>
-                <a class="dropdown-item" href="pages/administration.html"
-                  >Administration</a
-                >
-                <a class="dropdown-item" href="pages/departements.html"
-                  >Departments</a
-                >
-                <!--<a class="dropdown-item" href="pages/parishes.html">Parishes</a>-->
-              </div>
-            </li>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link main_option active" href="#section_landing">Home <span
+                class="sr-only">(current)</span></a>
+          </li>
 
-            <li class="nav-item">
-              <a class="nav-link main_option" href="#section_events">Updates</a>
-            </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle main_option" href="" id="navbarDropdown" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="pages/about.html">Church</a>
+              <a class="dropdown-item" href="pages/administration.html">Administration</a>
+              <a class="dropdown-item" href="pages/departements.html">Departments</a>
+              <!--<a class="dropdown-item" href="pages/parishes.html">Parishes</a>-->
+            </div>
+          </li>
 
-            <li class="nav-item">
-              <a class="nav-link main_option" href="pages/publications.html"
-                >Publication</a>
-            </li>
+          <li class="nav-item">
+            <a class="nav-link main_option" href="#section_events">Updates</a>
+          </li>
 
-            <li class="nav-item">
-              <a class="nav-link main_option" href="#section_footer">Contact</a>
-            </li>
-          </ul>
+          <li class="nav-item">
+            <a class="nav-link main_option" href="pages/publications.html">Publication</a>
+          </li>
 
-          <ul class="navbar-nav ml-2">
-            <li class="nav-item">
-              <a class="btn btn_nav" href="pages/register.html">REGISTER</a>
-            </li>
-          </ul>
-        </div>
+          <li class="nav-item">
+            <a class="nav-link main_option" href="#section_footer">Contact</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-2">
+          <li class="nav-item">
+            <a class="btn btn_nav" href="pages/register.html">REGISTER</a>
+          </li>
+        </ul>
       </div>
-    </nav>
+    </div>
+  </nav>
 
-    <!-- NAVIGATION BAR ENDS-->
+  <!-- NAVIGATION BAR ENDS-->
 
-    <!-- SECTION LANDING STARTS-->
-    <div
-      class="container-fluid erc_container"
-      id="section_landing"
-      style="
+  <!-- SECTION LANDING STARTS-->
+  <div class="container-fluid erc_container" id="section_landing" style="
         background: linear-gradient(rgba(0, 0, 0), rgba(0, 0, 0, 0)),
           url(images/home3.jpg);
-      "
-    >
-      <div class="container text-center d-flex">
-        <div class="col-12 align-self-center mabo32">
-          <!-- <p class="txt_white txt_title">Welcome to</p> -->
-          <p class="txt_white txt_head mabo16">ERC MASORO</p>
-          <p class="txt_white txt_subtitle mabo16">The Family Church</p>
-          <div class="mabo16">
-            <a class="btn btn_watch mx-2" href="pages/sermons.html"
-              >Watch Online</a
-            >
-            <!-- <a class="btn btn_outline mx-2" href="pages/im_new.html">I'm New</a> -->
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-lg-6 col-md-6 col-sm-6 col-12 card_transparent">
-              <div
-                id="carouselExampleIndicators"
-                class="carousel slide"
-                data-ride="carousel"
-              >
-                <ol class="carousel-indicators" style="bottom: -60px">
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="0"
-                    class="active"
-                  ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="1"
-                  ></li>
-                  <li
-                    data-target="#carouselExampleIndicators"
-                    data-slide-to="2"
-                  ></li>
-                </ol>
-                <div class="carousel-inner">
-                    
-                    
-                    
-                    
-                    
-                    
-                          <div class="carousel-item">
-                    <div class="row event_highlight">
-                      <div class="col-lg-6 col-md-6 col-sm-6 col-12 details">
-                        <p class="txt_white txt_content fnt_black mabo0">
-                          Morning Push
-                        </p>
-                        <p class="txt_grey txt_info fnt_700 mabo0">
-                          02nd-22th August 2021
-                        </p>
-                      </div>
-                      <div
-                        class="col-lg-6 col-md-6 col-sm-6 col-12 pic"
-                        style="
+      ">
+    <div class="container text-center d-flex">
+      <div class="col-12 align-self-center mabo32">
+        <!-- <p class="txt_white txt_title">Welcome to</p> -->
+        <p class="txt_white txt_head mabo16">ERC MASORO</p>
+        <p class="txt_white txt_subtitle mabo16">The Family Church</p>
+        <div class="mabo16">
+          <a class="btn btn_watch mx-2" href="pages/sermons.html">Watch Online</a>
+          <!-- <a class="btn btn_outline mx-2" href="pages/im_new.html">I'm New</a> -->
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-12 card_transparent">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators" style="bottom: -60px">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+
+
+
+
+
+
+                <div class="carousel-item">
+                  <div class="row event_highlight">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12 details">
+                      <p class="txt_white txt_content fnt_black mabo0">
+                        Morning Push
+                      </p>
+                      <p class="txt_grey txt_info fnt_700 mabo0">
+                        02nd-22th August 2021
+                      </p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12 pic" style="
                           background: url(images/event3.jpeg);
                           background-size: cover;
                           background-position: center;
-                        "
-                      ></div>
-                    </div>
+                        "></div>
                   </div>
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                  <div class="carousel-item active">
-                    <div class="row event_highlight">
-                      <div class="col-lg-6 col-md-6 col-sm-6 col-12 details">
-                        <p class="txt_white txt_content mabo0">
-                             1 Minute Gospel Challenge
-                        </p>
-                        <p class="txt_grey txt_info fnt_700 mabo0">
-                          <!-- May-19-2019 -->
-                         60 Seconds
-                        </p>
-                      </div>
-                      <div
-                        class="col-lg-6 col-md-6 col-sm-6 col-12 pic"
-                        style="
+                </div>
+
+
+
+
+
+
+
+                <div class="carousel-item active">
+                  <div class="row event_highlight">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12 details">
+                      <p class="txt_white txt_content mabo0">
+                        1 Minute Gospel Challenge
+                      </p>
+                      <p class="txt_grey txt_info fnt_700 mabo0">
+                        <!-- May-19-2019 -->
+                        60 Seconds
+                      </p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12 pic" style="
                           background: url(images/event2.jpeg);
                           background-size: cover;
                           background-position: center;
-                        "
-                      ></div>
-                    </div>
+                        "></div>
                   </div>
-                  
-                  
-                  
-                       <div class="carousel-item">
-                    <div class="row event_highlight">
-                      <div class="col-lg-6 col-md-6 col-sm-6 col-12 details">
-                        <p class="txt_white txt_content fnt_black mabo0">
-                    Weekly Fellowship Services
-                        </p>
-                        <p class="txt_grey txt_info fnt_700 mabo0">
-                          Friday & Sunday
-                        </p>
-                      </div>
-                      <div
-                        class="col-lg-6 col-md-6 col-sm-6 col-12 pic"
-                        style="
+                </div>
+
+
+
+                <div class="carousel-item">
+                  <div class="row event_highlight">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12 details">
+                      <p class="txt_white txt_content fnt_black mabo0">
+                        Weekly Fellowship Services
+                      </p>
+                      <p class="txt_grey txt_info fnt_700 mabo0">
+                        Friday & Sunday
+                      </p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-12 pic" style="
                           background: url(images/event1.jpeg);
                           background-size: cover;
                           background-position: center;
-                        "
-                      ></div>
-                    </div>
+                        "></div>
                   </div>
-                 
-            
                 </div>
+
+
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- SECTION LANDING ENDS-->
+  <!-- SECTION LANDING ENDS-->
 
-    <!---- SECTION COMMISSIONS STARTS---->
-    <div class="container-fluid bg_grey" id="section_commissions">
-      <div class="container-fluid erc_container">
-        <div class="row">
-          <div class="col-lg-3 col-md-3 col-sm-12 col-12 mabo32">
-            <div class="col-12 card_white text-left pad0">
-              <div
-                class="col-12"
-                style="
+  <!---- SECTION COMMISSIONS STARTS---->
+  <div class="container-fluid bg_grey" id="section_commissions">
+    <div class="container-fluid erc_container">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-12 col-12 mabo32">
+          <div class="col-12 card_white text-left pad0">
+            <div class="col-12" style="
                   background: url(images/fellowship.JPG);
                   height: 220px;
                   background-size: cover;
                   background-position: center;
-                "
-              ></div>
-              <div class="col-12 text-left pad32">
-                <p class="txt_subtitle txt_blue fnt_black">Fellowship</p>
-                <p class="txt_content txt_grey">
-                  Revelations 5:8-9 is a reflection of what we must do as
-                  Christians to worship our Lord Jesus for who he is and what he
-                  has done for us. We must do it purely and purposely without
-                  any compulsion.Let us therefore not neglect fellowship, for
-                  through this we are encouraged and strengthened in our
-                  spiritual life.
-                </p>
-                <a href="pages/departements.html"
-                  ><button class="btn btn_link">Learn More</button></a
-                >
-              </div>
+                "></div>
+            <div class="col-12 text-left pad32">
+              <p class="txt_subtitle txt_blue fnt_black">Fellowship</p>
+              <p class="txt_content txt_grey">
+                Revelations 5:8-9 is a reflection of what we must do as
+                Christians to worship our Lord Jesus for who he is and what he
+                has done for us. We must do it purely and purposely without
+                any compulsion.Let us therefore not neglect fellowship, for
+                through this we are encouraged and strengthened in our
+                spiritual life.
+              </p>
+              <a href="pages/departements.html"><button class="btn btn_link">Learn More</button></a>
             </div>
           </div>
+        </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-12 col-12 mabo32">
-            <div class="col-12 card_white text-left pad0">
-              <div
-                class="col-12"
-                style="
+        <div class="col-lg-3 col-md-3 col-sm-12 col-12 mabo32">
+          <div class="col-12 card_white text-left pad0">
+            <div class="col-12" style="
                   background: url(images/img2.jpeg);
                   height: 220px;
                   background-size: cover;
                   background-position: center;
-                "
-              ></div>
-              <div class="col-12 text-left pad32">
-                <p class="txt_subtitle txt_blue fnt_black">Disciples</p>
-                <p class="txt_content txt_grey">
-                  Jesus commissioned His Disciples to spread the word of God
-                  (Gospel) to the ends of the earth _Mathew 28:19-20. This great
-                  commission is an intergral part of the ERC vision of
-                  preparing/ raising an Army of Life givers (Disciples) fully
-                  consecrated to Jesus and ready to spread the gospel to all
-                  corners of the earth.
-                </p>
-                <a href="pages/departements.html"
-                  ><button class="btn btn_link">Learn More</button></a
-                >
-              </div>
+                "></div>
+            <div class="col-12 text-left pad32">
+              <p class="txt_subtitle txt_blue fnt_black">Disciples</p>
+              <p class="txt_content txt_grey">
+                Jesus commissioned His Disciples to spread the word of God
+                (Gospel) to the ends of the earth _Mathew 28:19-20. This great
+                commission is an intergral part of the ERC vision of
+                preparing/ raising an Army of Life givers (Disciples) fully
+                consecrated to Jesus and ready to spread the gospel to all
+                corners of the earth.
+              </p>
+              <a href="pages/departements.html"><button class="btn btn_link">Learn More</button></a>
             </div>
           </div>
-          <div class="col-lg-3 col-md-3 col-sm-12 col-12 mabo32">
-            <div class="col-12 card_white text-left pad0">
-              <div
-                class="col-12"
-                style="
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-12 col-12 mabo32">
+          <div class="col-12 card_white text-left pad0">
+            <div class="col-12" style="
                   background: url(images/homecell.jpeg);
                   height: 220px;
                   background-size: cover;
                   background-position: center;
-                "
-              ></div>
-              <div class="col-12 text-left pad32">
-                <p class="txt_subtitle txt_blue fnt_black">Home Cell</p>
-                <p class="txt_content txt_grey">
-                  At ERC Masoro Church, a cell group is the basic unit that
-                  forms the life of the church, it is a small group of people of
-                  ERC Masoro that do life together in their community, praying ,
-                  sharing meals together and engaging in each other’s day to day
-                  life_Acts 2:46
-                </p>
-                <a href="pages/departements.html"
-                  ><button class="btn btn_link">Learn More</button></a
-                >
-              </div>
+                "></div>
+            <div class="col-12 text-left pad32">
+              <p class="txt_subtitle txt_blue fnt_black">Home Cell</p>
+              <p class="txt_content txt_grey">
+                At ERC Masoro Church, a cell group is the basic unit that
+                forms the life of the church, it is a small group of people of
+                ERC Masoro that do life together in their community, praying ,
+                sharing meals together and engaging in each other’s day to day
+                life_Acts 2:46
+              </p>
+              <a href="pages/departements.html"><button class="btn btn_link">Learn More</button></a>
             </div>
           </div>
+        </div>
 
-          <div class="col-lg-3 col-md-3 col-sm-12 col-12 mabo32">
-            <div class="col-12 card_white text-left pad0">
-              <div
-                class="col-12"
-                style="
+        <div class="col-lg-3 col-md-3 col-sm-12 col-12 mabo32">
+          <div class="col-12 card_white text-left pad0">
+            <div class="col-12" style="
                   background: url(images/family.JPG);
                   height: 220px;
                   background-size: cover;
                   background-position: center;
-                "
-              ></div>
-              <div class="col-12 text-left pad32">
-                <p class="txt_subtitle txt_blue fnt_black">Family</p>
-                <p class="txt_content txt_grey">
-                  Malachi 3:24 “ He will turn the hearts of the fathers to the
-                  children and the hearts of the children to their fathers...”
-                  The Church has the task of restoring people in all dimensions
-                  (spirit, soul and Body) while creating a family church within
-                  the church.
-                </p>
-                <a href="pages/departements.html"
-                  ><button class="btn btn_link">Learn More</button></a
-                >
-              </div>
+                "></div>
+            <div class="col-12 text-left pad32">
+              <p class="txt_subtitle txt_blue fnt_black">Family</p>
+              <p class="txt_content txt_grey">
+                Malachi 3:24 “ He will turn the hearts of the fathers to the
+                children and the hearts of the children to their fathers...”
+                The Church has the task of restoring people in all dimensions
+                (spirit, soul and Body) while creating a family church within
+                the church.
+              </p>
+              <a href="pages/departements.html"><button class="btn btn_link">Learn More</button></a>
             </div>
-          </div>
-        </div>
-        <div class="row text-center justify-content-center mato32">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-12">
-            <a href="pages/departements.html"
-              ><button class="btn btn_nav">Learn More</button></a
-            >
           </div>
         </div>
       </div>
+      <div class="row text-center justify-content-center mato32">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12">
+          <a href="pages/departements.html"><button class="btn btn_nav">Learn More</button></a>
+        </div>
+      </div>
     </div>
+  </div>
 
-    <!---- SECTION COMMISSIONS ENDS---->
+  <!---- SECTION COMMISSIONS ENDS---->
 
-    <!-- SECTION SECTION SERMONS STARTS--->
-    <div class="container-fluid" id="section_sermons">
-      <div class="container-fluid erc_container">
-        <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-6 col-12 sermon_list">
-            <!-- SPOT AREA -->
+  <!-- SECTION SECTION SERMONS STARTS--->
+  <div class="container-fluid" id="section_sermons">
+    <div class="container-fluid erc_container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-12 sermon_list">
+          <!-- SPOT AREA -->
 
-            <div class="col-12 mabo32" style="padding-top: 30px">
-              <p class="txt_title txt_black fnt_black mabo64">
-                Spot of the week
-              </p>
+          <div class="col-12 mabo32" style="padding-top: 30px">
+            <p class="txt_title txt_black fnt_black mabo64">
+              Spot of the week
+            </p>
+          </div>
+          <div class="col-12 embed-responsive mabo32">
+            <div class="col-12 card pad16" style="height: 440px; width: auto">
+              <iframe width="100%" height="208" src="spot.mp4" frameborder="0"
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" controls allowfullscreen
+                padding-top="120px"></iframe>
             </div>
-            <div class="col-12 embed-responsive mabo32">
-              <div class="col-12 card pad16" style="height: 440px; width: auto">
-                <iframe
-                  width="100%"
-                  height="208"
-                  src="spot.mp4"
-                  frameborder="0"
-                  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                  controls
-                  allowfullscreen
-                  padding-top="120px"
-                ></iframe>
-              </div>
-            </div>
-            <!-- <div class="col-12 mabo32">
+          </div>
+          <!-- <div class="col-12 mabo32">
               <p class="txt_subtitle txt_black fnt_black mabo32">
                 Recent sermon
               </p>
             </div> -->
-           
-           <div class="row pad16">
-               
-               
-               
-               
-               
-               
-                
-                <div class="col-lg-4 col-md-4 col-sm-4 col-4 embed-responsive">
-                <div
-                  class="col-12 card pad16"
-                  style="height: 220px; width: auto"
-                >
-                  <iframe
-                    height="280"
-                    class="embed-responsive-item"
-                    src="https://youtu.be/8nQLwGU22po"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                </div>
-                <p class="txt_grey txt_small mabo0">Sunday 24 October 2021</p>
-                <p class="txt_black txt_small fnt_black">
-           SUNDAY 24/10/2021 FIRST SERVICE WITH Dr. VIATEUR HABARUREMA
-                </p>
-              </div>
-               
-               
-               
-               
-               
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-4 embed-responsive">
-                <div
-                  class="col-12 card pad16"
-                  style="height: 220px; width: auto"
-                >
-                  <iframe
-                    class="embed-responsive-item"
-                    src="https://youtu.be/urGWtuKmYKA"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                </div>
-                <p class="txt_grey txt_small mabo0">Sunday 24 October 2021</p>
-                <p class="txt_black txt_small fnt_black">
-                DIMANCHE 24/10/2021 DEUXIEME CULTE AVEC DR. VIATEUR HABARUREMA
-                </p>
-              </div>
-               
-               
-               
-                  <div class="col-lg-4 col-md-4 col-sm-4 col-4 embed-responsive">
-                <div
-                  class="col-12 card pad16"
-                  style="height: 220px; width: auto"
-                >
-                  <iframe
-                    class="embed-responsive-item"
-                    src="https://youtu.be/LaXQtpVqZwI"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                  ></iframe>
-                </div>
-                <p class="txt_grey txt_small mabo0">Sunday 24 October 2021</p>
-                <p class="txt_black txt_small fnt_black">
-               SUNDAY 24/10/2021 THIRD SERVICE WITH Apostle Yoshua Ndagijimana Masasu
-              </div>
-               
-               
-               
-               
-              
-              
-               
-               
-         
-             
- </div>
-             
-           
 
-            <div class="col-12 mabo32">
-              <p class="txt_black txt_pretitle fnt_black">
-                TOPIC OF THE WEEK SERMONS:
+          <div class="row pad16">
+
+
+
+
+
+
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4 embed-responsive">
+              <div class="col-12 card pad16" style="height: 220px; width: auto">
+                <iframe height="280" class="embed-responsive-item" src="https://youtu.be/8nQLwGU22po"
+                  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+              <p class="txt_grey txt_small mabo0">Sunday 24 October 2021</p>
+              <p class="txt_black txt_small fnt_black">
+                SUNDAY 24/10/2021 FIRST SERVICE WITH Dr. VIATEUR HABARUREMA
               </p>
-              <p class="txt_black txt_content fnt_black mabo0">
-            Reason / Benefits of rejoicing in the Lord always/ Rejoice in the Lord.
+            </div>
+
+
+
+
+
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4 embed-responsive">
+              <div class="col-12 card pad16" style="height: 220px; width: auto">
+                <iframe class="embed-responsive-item" src="https://youtu.be/urGWtuKmYKA" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+              <p class="txt_grey txt_small mabo0">Sunday 24 October 2021</p>
+              <p class="txt_black txt_small fnt_black">
+                DIMANCHE 24/10/2021 DEUXIEME CULTE AVEC DR. VIATEUR HABARUREMA
               </p>
-              <!-- <a href="#"><i class="far fa-file-pdf sermons_icons"></i></a>
+            </div>
+
+
+
+
+
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-4 embed-responsive">
+              <div class="col-12 card pad16" style="height: 220px; width: auto">
+                <iframe class="embed-responsive-item" src="https://youtu.be/LaXQtpVqZwI" frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+              <p class="txt_grey txt_small mabo0">Sunday 24 October 2021</p>
+              <p class="txt_black txt_small fnt_black">
+                SUNDAY 24/10/2021 THIRD SERVICE WITH Apostle Yoshua Ndagijimana Masasu
+              </p>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+
+
+
+          <div class="col-12 mabo32">
+            <p class="txt_black txt_pretitle fnt_black">
+              TOPIC OF THE WEEK SERMONS:
+            </p>
+            <p class="txt_black txt_content fnt_black mabo0">
+              Reason / Benefits of rejoicing in the Lord always/ Rejoice in the Lord.
+            </p>
+            <!-- <a href="#"><i class="far fa-file-pdf sermons_icons"></i></a>
               <a href="#"><i class="fas fa-volume-up sermons_icons"></i></a>
               <a href="#"><i class="fab fa-youtube sermons_icons"></i></a>
               <a href="#"><i class="fas fa-download sermons_icons"></i></a> -->
-            </div>
-            <div className="col-12 mato32" style="text-align: center">
-              <a href="./pages/sermons.html"
-                ><button class="btn btn_nav">VIEW ALL SERMONS</button></a
-              >
-            </div>
           </div>
-          <div class="col-1"></div>
-          <div class="col-lg-5 col-md-5 col-sm-5 col-12">
-            <div class="row bg_blue pad32 sermon_timetable">
-              <div class="col-12 mabo16">
-                <p class="txt_white txt_title fnt_black">Church Programs</p>
-              </div>
-              <div class="col-12">
-                <dl class="row">
-                  <dt class="col-sm-4 mabo16">
-                    <p class="txt_white txt_content mabo0 fnt_black">Monday</p>
-                    <p class="txt_white txt_info">06:00pm - 07:30pm</p>
-                  </dt>
-                  <dd class="col-sm-8 mabo">
-                    <p class="txt_white txt_pretitle text-uppercase mabo0">
-                      All Home Cell Fellowship
-                    </p>
-                  </dd>
+          <div className="col-12 mato32" style="text-align: center">
+            <a href="./pages/sermons.html"><button class="btn btn_nav">VIEW ALL SERMONS</button></a>
+          </div>
+        </div>
+        <div class="col-1"></div>
+        <div class="col-lg-5 col-md-5 col-sm-5 col-12">
+          <div class="row bg_blue pad32 sermon_timetable">
+            <div class="col-12 mabo16">
+              <p class="txt_white txt_title fnt_black">Church Programs</p>
+            </div>
+            <div class="col-12">
+              <dl class="row">
+                <dt class="col-sm-4 mabo16">
+                  <p class="txt_white txt_content mabo0 fnt_black">Monday</p>
+                  <p class="txt_white txt_info">06:00pm - 07:30pm</p>
+                </dt>
+                <dd class="col-sm-8 mabo">
+                  <p class="txt_white txt_pretitle text-uppercase mabo0">
+                    All Home Cell Fellowship
+                  </p>
+                </dd>
 
-                  <dt class="col-sm-4 mabo16">
-                    <p class="txt_white txt_content mabo0 fnt_black">Tuesday</p>
-                    <p class="txt_white txt_info">06:00pm - 08:00pm</p>
-                  </dt>
-                  <dd class="col-sm-8 mabo">
-                    <p class="txt_white txt_pretitle text-uppercase mabo0">
-                      Discipleship classes
-                    </p>
-                  </dd>
+                <dt class="col-sm-4 mabo16">
+                  <p class="txt_white txt_content mabo0 fnt_black">Tuesday</p>
+                  <p class="txt_white txt_info">06:00pm - 08:00pm</p>
+                </dt>
+                <dd class="col-sm-8 mabo">
+                  <p class="txt_white txt_pretitle text-uppercase mabo0">
+                    Discipleship classes
+                  </p>
+                </dd>
 
-                  <dt class="col-sm-4 mabo32">
-                    <p class="txt_white txt_content mabo0 fnt_black">
-                      Wednesday
-                    </p>
-                    <p class="txt_white txt_info">06:00pm - 08:00pm</p>
-                  </dt>
-                  <dd class="col-sm-8 mabo">
-                    <p class="txt_white txt_pretitle text-uppercase mabo0">
-                      Discipleship classes
-                    </p>
-                  </dd>
+                <dt class="col-sm-4 mabo32">
+                  <p class="txt_white txt_content mabo0 fnt_black">
+                    Wednesday
+                  </p>
+                  <p class="txt_white txt_info">06:00pm - 08:00pm</p>
+                </dt>
+                <dd class="col-sm-8 mabo">
+                  <p class="txt_white txt_pretitle text-uppercase mabo0">
+                    Discipleship classes
+                  </p>
+                </dd>
 
-                  <dt class="col-sm-4 mabo32">
-                    <p class="txt_white txt_content mabo0 fnt_black">
-                      Thursday
-                    </p>
-                    <p class="txt_white txt_info">06:00pm - 08:00pm</p>
-                  </dt>
-                  <dd class="col-sm-8 mabo">
-                    <p class="txt_white txt_pretitle text-uppercase mabo0">
-                      Discipleship classes
-                    </p>
-                  </dd>
+                <dt class="col-sm-4 mabo32">
+                  <p class="txt_white txt_content mabo0 fnt_black">
+                    Thursday
+                  </p>
+                  <p class="txt_white txt_info">06:00pm - 08:00pm</p>
+                </dt>
+                <dd class="col-sm-8 mabo">
+                  <p class="txt_white txt_pretitle text-uppercase mabo0">
+                    Discipleship classes
+                  </p>
+                </dd>
 
-                  <dt class="col-sm-4 mabo16">
-                    <p class="txt_white txt_content mabo0 fnt_black">Friday</p>
-                    <p class="txt_white txt_info">06:00pm - 08:00pm</p>
-                  </dt>
-                  <dd class="col-sm-8 mabo">
-                    <p class="txt_white txt_pretitle text-uppercase mabo0">
-                      Evening Service
-                    </p>
-                  </dd>
+                <dt class="col-sm-4 mabo16">
+                  <p class="txt_white txt_content mabo0 fnt_black">Friday</p>
+                  <p class="txt_white txt_info">06:00pm - 08:00pm</p>
+                </dt>
+                <dd class="col-sm-8 mabo">
+                  <p class="txt_white txt_pretitle text-uppercase mabo0">
+                    Evening Service
+                  </p>
+                </dd>
 
-                  <dt class="col-sm-4">
-                    <p class="txt_white txt_content mabo0 fnt_black">Sunday</p>
-                    <p class="txt_white txt_info">
-                      07:30am - 09:30am Kinyarwanda & English
-                    </p>
-                  </dt>
-                  <dd class="col-sm-8 mabo">
-                    <p class="txt_white txt_pretitle text-uppercase mabo0">
-                      First Service
-                    </p>
-                  </dd>
+                <dt class="col-sm-4">
+                  <p class="txt_white txt_content mabo0 fnt_black">Sunday</p>
+                  <p class="txt_white txt_info">
+                    07:30am - 09:30am Kinyarwanda & English
+                  </p>
+                </dt>
+                <dd class="col-sm-8 mabo">
+                  <p class="txt_white txt_pretitle text-uppercase mabo0">
+                    First Service
+                  </p>
+                </dd>
 
-                  <dt class="col-sm-4">
-                    <p class="txt_white txt_content mabo0 fnt_black">Sunday</p>
-                    <p class="txt_white txt_info">
-                      11:30am - 13:30pm Kinyarwanda & French
-                    </p>
-                  </dt>
-                  <dd class="col-sm-8 mabo">
-                    <p class="txt_white txt_pretitle text-uppercase mabo0">
-                      Second Service
-                    </p>
-                  </dd>
+                <dt class="col-sm-4">
+                  <p class="txt_white txt_content mabo0 fnt_black">Sunday</p>
+                  <p class="txt_white txt_info">
+                    11:30am - 13:30pm Kinyarwanda & French
+                  </p>
+                </dt>
+                <dd class="col-sm-8 mabo">
+                  <p class="txt_white txt_pretitle text-uppercase mabo0">
+                    Second Service
+                  </p>
+                </dd>
 
-                  <dt class="col-sm-4">
-                    <p class="txt_white txt_content mabo0 fnt_black">Sunday</p>
-                    <p class="txt_white txt_info">03:30pm - 05:30pm</p>
-                  </dt>
-                  <dd class="col-sm-8 mabo">
-                    <p class="txt_white txt_pretitle text-uppercase mabo0">
-                      Family Care Ministries
-                    </p>
-                  </dd>
+                <dt class="col-sm-4">
+                  <p class="txt_white txt_content mabo0 fnt_black">Sunday</p>
+                  <p class="txt_white txt_info">03:30pm - 05:30pm</p>
+                </dt>
+                <dd class="col-sm-8 mabo">
+                  <p class="txt_white txt_pretitle text-uppercase mabo0">
+                    Family Care Ministries
+                  </p>
+                </dd>
 
-                  <!--<p class="txt_white txt_content mabo0 fnt_black">-->
-                  <!--  NOTICE: In compliance with the Government Directives due to-->
-                  <!--  Covid-19, friday evening service and week days scheduled programs have been-->
-                  <!--  moved online. You can find the zoom ID details on the-->
-                  <!--  fliers.-->
-                  <!--</p>-->
-                </dl>
-              </div>
+                <!--<p class="txt_white txt_content mabo0 fnt_black">-->
+                <!--  NOTICE: In compliance with the Government Directives due to-->
+                <!--  Covid-19, friday evening service and week days scheduled programs have been-->
+                <!--  moved online. You can find the zoom ID details on the-->
+                <!--  fliers.-->
+                <!--</p>-->
+              </dl>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- SECTION SECTION SERMONS ENDS--->
+  <!-- SECTION SECTION SERMONS ENDS--->
 
-    <!-- SECTION EVENTS STARTS--->
-    <div class="container-fluid bg_grey" id="section_events">
-      <div class="container-fluid erc_container">
-        <div class="row d-flex justify-content-center">
-          <div class="col-6 text-center mabo32">
-            <p class="txt_title txt_black fnt_black mabo32">UPDATES</p>
-            <p class="txt_black txt_content">
-              A variety of events take place at Evangelical Restoration church
-              Masoro and below is a highlight of the scheduled events
-            </p>
-          </div>
+  <!-- SECTION EVENTS STARTS--->
+  <div class="container-fluid bg_grey" id="section_events">
+    <div class="container-fluid erc_container">
+      <div class="row d-flex justify-content-center">
+        <div class="col-6 text-center mabo32">
+          <p class="txt_title txt_black fnt_black mabo32">UPDATES</p>
+          <p class="txt_black txt_content">
+            A variety of events take place at Evangelical Restoration church
+            Masoro and below is a highlight of the scheduled events
+          </p>
         </div>
+      </div>
 
-        <div class="row">
-          <div class="col-lg-7 col-md-7 col-sm-7 col-12">
-            <div class="col-12">
-              <p class="txt_subtitle txt_blue fnt_black mabo32">UP COMING Events</p>
-            </div>
-            <div class="col-12 card_white text-left pad0">
-              <div
-                class="col-12"
-                style="
+      <div class="row">
+        <div class="col-lg-7 col-md-7 col-sm-7 col-12">
+          <div class="col-12">
+            <p class="txt_subtitle txt_blue fnt_black mabo32">UP COMING Events</p>
+          </div>
+          <div class="col-12 card_white text-left pad0">
+            <div class="col-12" style="
                   background: url(images/event31.jpg);
                   height: 405px;
                   background-size: cover;
                   background-position: top;
-                "
-              ></div>
+                "></div>
 
-              <div class="row pad32">
-                <dt class="col-sm-3">
-                  <p class="txt_subtitle txt_black fnt_black">Theme :</p>
-                </dt>
-                <dd class="col-sm-9">
-                  <p class="txt_subtitle txt_black fnt_black">
-                    “Be a soldier of christ. ”
-                  </p>
-                </dd>
-               
-            
+            <div class="row pad32">
+              <dt class="col-sm-3">
+                <p class="txt_subtitle txt_black fnt_black">Theme :</p>
+              </dt>
+              <dd class="col-sm-9">
+                <p class="txt_subtitle txt_black fnt_black">
+                  “Be a soldier of christ. ”
+                </p>
+              </dd>
+
+
               <!--ERC Masoro we join  Rwandans to commemorate the 1994 Genocide against the Tutsi through this 100 days.-->
-               
-                 
-                <p class="txt_content txt_black pad016 mabo32">Evangelical Restoration Church Masoro invites all youth in a morning push prayer of 21 days to fight for our people.</p>
 
-               
-                <dt class="col-sm-3">
-                  <p class="txt_black txt_content mabo0">Date :</p>
-                </dt>
-                <dd class="col-sm-9">
-                  <p class="txt_grey txt_content mabo0">
-                    02nd-22nd August 2021
-                  </p>
-                </dd>
-                <!-- <dt class="col-sm-3">
+
+              <p class="txt_content txt_black pad016 mabo32">Evangelical Restoration Church Masoro invites all youth in
+                a morning push prayer of 21 days to fight for our people.</p>
+
+
+              <dt class="col-sm-3">
+                <p class="txt_black txt_content mabo0">Date :</p>
+              </dt>
+              <dd class="col-sm-9">
+                <p class="txt_grey txt_content mabo0">
+                  02nd-22nd August 2021
+                </p>
+              </dd>
+              <!-- <dt class="col-sm-3">
                     <p class="txt_black txt_content mabo0">Guest :</p>
                   </dt>
                     <dd class="col-sm-9">
                       <p class="txt_grey txt_content mabo0">Aposte Yoshua N. MASASU</p>
                     </dd> -->
-                <dt class="col-sm-3">
-                  <p class="txt_black txt_content mabo0">Time :</p>
-                </dt>
-                <dd class="col-sm-9">
-                  <p class="txt_grey txt_content mabo0">
-                     Every  : 05:00 AM
-                     <!--Sunday 3:30 PM-5:30PM-->
-                  </p>
-                  <!-- <p class="txt_grey txt_content mabo0">
+              <dt class="col-sm-3">
+                <p class="txt_black txt_content mabo0">Time :</p>
+              </dt>
+              <dd class="col-sm-9">
+                <p class="txt_grey txt_content mabo0">
+                  Every : 05:00 AM
+                  <!--Sunday 3:30 PM-5:30PM-->
+                </p>
+                <!-- <p class="txt_grey txt_content mabo0">
                      From 6PM: 1 hour of prayer
                   </p> -->
-                  <!-- <p class="txt_grey txt_content mabo0">6:00pm - 10:00pm</p> -->
-                </dd>
-                <dt class="col-sm-3">
-                  <p class="txt_black txt_content mabo0">Venue :</p>
-                </dt>
-                <dd class="col-sm-9">
-                  <p class="txt_grey txt_content mabo0">
-                    Evangelical Restoration Church Masoro Zoom
-                  </p>
-                </dd>
-                
-                
-              </div>
-              
-              
+                <!-- <p class="txt_grey txt_content mabo0">6:00pm - 10:00pm</p> -->
+              </dd>
+              <dt class="col-sm-3">
+                <p class="txt_black txt_content mabo0">Venue :</p>
+              </dt>
+              <dd class="col-sm-9">
+                <p class="txt_grey txt_content mabo0">
+                  Evangelical Restoration Church Masoro Zoom
+                </p>
+              </dd>
+
+
             </div>
-            
-            
-              <div class="col-12 text-center mato32">
-          <a href="pages/event.html"
-            ><button class="btn btn_link">See all events</button></a
-          >
-        </div>
+
+
           </div>
-          <div class="col-lg-5 col-md-5 col-sm-5 col-12">
-              <div class="col-12">
-              <p class="txt_subtitle txt_blue fnt_black mabo32">EVENT's TESTIMONIES</p>
-            </div>
-            <div class="col-12 card-large-white d-flex pad0">
-              <div class="col-lg-6 col-md-6 col-sm-12 col-12 pad0 text-center align-self-center">
-                <div
-                class="col-12 "
-                style="
+
+
+          <div class="col-12 text-center mato32">
+            <a href="pages/event.html"><button class="btn btn_link">See all events</button></a>
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-5 col-12">
+          <div class="col-12">
+            <p class="txt_subtitle txt_blue fnt_black mabo32">EVENT's TESTIMONIES</p>
+          </div>
+          <div class="col-12 card-large-white d-flex pad0">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 pad0 text-center align-self-center">
+              <div class="col-12 " style="
                   background: url(images/article1.jpeg);
                   height: 255px;
                   background-size: cover;
                   background-position: center;
-                "
-              ></div>
-             
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-12 col-12 border_event">
-                <p class="txt_black fnt_black txt_content">
-                  ERC Masoro teenager Ministry
-                </p>
-                <p class="txt_content txt_grey">
-                 At the end of every month 
-               whereby teenagers wake up at 5-6am for prayer.
+                "></div>
+
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-12 border_event">
+              <p class="txt_black fnt_black txt_content">
+                ERC Masoro teenager Ministry
+              </p>
+              <p class="txt_content txt_grey">
+                At the end of every month
+                whereby teenagers wake up at 5-6am for prayer.
 
 
-               <!-- In teenager ministry we  often do one week of prayer at the end of every month 
+                <!-- In teenager ministry we  often do one week of prayer at the end of every month 
                whereby teenagers wake up at 5-6am for prayer.  -->
 
-               <!-- This month of may we have had a theme that says the holy spirit as a spirit of freedom and we thank God for Pastor Abishai
+                <!-- This month of may we have had a theme that says the holy spirit as a spirit of freedom and we thank God for Pastor Abishai
                 who blessed us with the word of God and we end this week with online fellowship on Saturday together with Pastor Abishai. -->
-                 
-                </p>
-                <a href="#"
-                  ><button class="btn btn_link">
-                    Read More 
-                  </button></a
-                >
-              </div>
+
+              </p>
+              <a href="#"><button class="btn btn_link">
+                  Read More
+                </button></a>
             </div>
+          </div>
 
 
-             <!-- <div class="col-12 card-large-white d-flex pad0">
+          <!-- <div class="col-12 card-large-white d-flex pad0">
               <div class="col-lg-6 col-md-6 col-sm-12 col-12 pad0 text-center align-self-center">
                 <div
                 class="col-12 "
@@ -790,15 +673,13 @@
 
 
 
-            <div class="col-12 text-center">
-              <a href="#"
-                  ><button class="btn btn_link ">
-                    See all articles
-                  </button></a
-                >
-            </div>
-             
-            <!-- <div class="col-12 card-large-white d-flex pad16">
+          <div class="col-12 text-center">
+            <a href="#"><button class="btn btn_link ">
+                See all articles
+              </button></a>
+          </div>
+
+          <!-- <div class="col-12 card-large-white d-flex pad16">
               <div class="col-lg-4 col-md-4 text-center align-self-center">
                 <p class="txt_blue txt_calendar fnt_black mabo0">Friday & Sunday</p>
               <p class="txt_blue txt_calendar fnt_black">Sunday</p>
@@ -818,242 +699,202 @@
                 >
               </div>
             </div> -->
-          </div>
         </div>
-
-      
       </div>
-    </div>
-    <!-- SECTION EVENTS ENDS--->
 
-    <!--SECTION ABOUT STARTS-->
-    <div class="container-fluid" id="section_about">
-      <div class="row d-flex">
-        <div
-          class="col-lg-6 col-md-6 col-sm-6 col-12 pad0"
-          style="
+
+    </div>
+  </div>
+  <!-- SECTION EVENTS ENDS--->
+
+  <!--SECTION ABOUT STARTS-->
+  <div class="container-fluid" id="section_about">
+    <div class="row d-flex">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-12 pad0" style="
             background: url(images/dad.jpeg);
             height: 500px;
             background-size: cover;
             background-position: top;
-          "
-        ></div>
-        <div class="col-lg-6 col-md-6 col-sm-6 col-12 d-flex text-justify">
-          <div class="row align-self-center">
-            <div class="col-12 text-center pad64">
-              <p class="txt_title txt_black fnt_black mabo16">
-                THE FAMILY CHURCH
-              </p>
-              <p class="txt_content txt_grey">
-                The ultimate birth of the ERC vision as a family church is
-                reflected in Ezekiel 37:1-10, which is: To raise an Army of
-                Disciples of Jesus Christ who are life givers, fully consecrated
-                to Jesus Christ, coming from different backgrounds and with
-                different history, interconnected by the spirit of family,
-                restored , trained, equipped, and sent , who have resolved to
-                make known Jesus Christ as Lord and King in their lives,
-                families and in all Nations in this generation.
-              </p>
-              <a href="pages/about.html"
-                ><button class="btn btn_link">ABOUT OUR CHURCH</button></a
-              >
-            </div>
+          "></div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-12 d-flex text-justify">
+        <div class="row align-self-center">
+          <div class="col-12 text-center pad64">
+            <p class="txt_title txt_black fnt_black mabo16">
+              THE FAMILY CHURCH
+            </p>
+            <p class="txt_content txt_grey">
+              The ultimate birth of the ERC vision as a family church is
+              reflected in Ezekiel 37:1-10, which is: To raise an Army of
+              Disciples of Jesus Christ who are life givers, fully consecrated
+              to Jesus Christ, coming from different backgrounds and with
+              different history, interconnected by the spirit of family,
+              restored , trained, equipped, and sent , who have resolved to
+              make known Jesus Christ as Lord and King in their lives,
+              families and in all Nations in this generation.
+            </p>
+            <a href="pages/about.html"><button class="btn btn_link">ABOUT OUR CHURCH</button></a>
           </div>
         </div>
       </div>
     </div>
-    <!--SECTION ABOUT ENDS-->
+  </div>
+  <!--SECTION ABOUT ENDS-->
 
-    <!--SECTION FOOTER STARTS-->
-    <div
-      class="container-fluid"
-      id="section_footer"
-      style="background: #222222"
-    >
-      <div class="container-fluid erc_container">
-        <div class="row">
-          <div class="col">
-            <img src="images/logoerc.png" width="98px" />
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-3 col-12">
-            <p class="txt_subtitle txt_white mabo32">CONTACT</p>
-            <ul class="footer_item">
-              <li>
-                <a href="#section_footer" class="txt_content txt_white"
-                  ><i class="mr-3 fa fa-map-marker"></i> Masoro, KGL Ndera</a
-                >
-              </li>
-              <li>
-                <a href="#section_footer" class="txt_content txt_white"
-                  ><i class="mr-3 fa fa-phone"></i> +250786 505 900</a
-                >
-              </li>
-              <li>
-                <a href="#section_footer" class="txt_content txt_white"
-                  ><i class="mr-3 fa fa-envelope"></i> info@ercfamily.com</a
-                >
-              </li>
-              <!-- <li><a href="#" class="txt_content txt_white"><i class="mr-3 fa fa-box"></i> PO BOX 000 Kigali, Rwanda</a></li> -->
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-2 col-sm-3 col-12">
-            <p class="txt_subtitle txt_white mabo32">DEPARTMENTS</p>
-            <ul class="footer_item">
-              <li>
-                <a
-                  href="./pages/departements.html"
-                  aria-controls="familyCare"
-                  class="txt_content txt_white"
-                  >Family care</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./pages/departements.html"
-                  class="txt_content txt_white"
-                  >Fellowship</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./pages/departements.html"
-                  class="txt_content txt_white"
-                  >Discipleship</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./pages/departements.html"
-                  class="txt_content txt_white"
-                  >Support Service</a
-                >
-              </li>
-              <li>
-                <a
-                  href="./pages/departements.html"
-                  class="txt_content txt_white"
-                  >Home cell</a
-                >
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-3 col-12">
-            <p class="txt_subtitle txt_white mabo32">CONNECT WITH US</p>
-            <p class="txt_content txt_white">Get Connected from your Church</p>
-            <a href="https://www.facebook.com/ercmasoro"
-              ><i class="fab fa-facebook-f social_icons"></i
-            ></a>
-            <a href="https://www.youtube.com/channel/UChyX4t6XCUh-AMSSaQFtwFg"
-              ><i class="fab fa-youtube social_icons"></i
-            ></a>
-            <a href="https://twitter.com/ERCMasoro?s=08"
-              ><i class="fab fa-twitter social_icons"></i
-            ></a>
-            <!-- <a href="#"><i class="fab fa-instagram social_icons"></i></a>
+  <!--SECTION FOOTER STARTS-->
+  <div class="container-fluid" id="section_footer" style="background: #222222">
+    <div class="container-fluid erc_container">
+      <div class="row">
+        <div class="col">
+          <img src="images/logoerc.png" width="98px" />
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+          <p class="txt_subtitle txt_white mabo32">CONTACT</p>
+          <ul class="footer_item">
+            <li>
+              <a href="#section_footer" class="txt_content txt_white"><i class="mr-3 fa fa-map-marker"></i> Masoro, KGL
+                Ndera</a>
+            </li>
+            <li>
+              <a href="#section_footer" class="txt_content txt_white"><i class="mr-3 fa fa-phone"></i> +250786 505
+                900</a>
+            </li>
+            <li>
+              <a href="#section_footer" class="txt_content txt_white"><i class="mr-3 fa fa-envelope"></i>
+                info@ercfamily.com</a>
+            </li>
+            <!-- <li><a href="#" class="txt_content txt_white"><i class="mr-3 fa fa-box"></i> PO BOX 000 Kigali, Rwanda</a></li> -->
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-3 col-12">
+          <p class="txt_subtitle txt_white mabo32">DEPARTMENTS</p>
+          <ul class="footer_item">
+            <li>
+              <a href="./pages/departements.html" aria-controls="familyCare" class="txt_content txt_white">Family
+                care</a>
+            </li>
+            <li>
+              <a href="./pages/departements.html" class="txt_content txt_white">Fellowship</a>
+            </li>
+            <li>
+              <a href="./pages/departements.html" class="txt_content txt_white">Discipleship</a>
+            </li>
+            <li>
+              <a href="./pages/departements.html" class="txt_content txt_white">Support Service</a>
+            </li>
+            <li>
+              <a href="./pages/departements.html" class="txt_content txt_white">Home cell</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-3 col-12">
+          <p class="txt_subtitle txt_white mabo32">CONNECT WITH US</p>
+          <p class="txt_content txt_white">Get Connected from your Church</p>
+          <a href="https://www.facebook.com/ercmasoro"><i class="fab fa-facebook-f social_icons"></i></a>
+          <a href="https://www.youtube.com/channel/UChyX4t6XCUh-AMSSaQFtwFg"><i
+              class="fab fa-youtube social_icons"></i></a>
+          <a href="https://twitter.com/ERCMasoro?s=08"><i class="fab fa-twitter social_icons"></i></a>
+          <!-- <a href="#"><i class="fab fa-instagram social_icons"></i></a>
             <a href="#"><i class="fab fa-flickr social_icons"></i></a> -->
-          </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <div
-      class="container-fluid"
-      id="section_footer_copy"
-      style="background: #111111"
-    >
-      <div class="container-fluid">
-        <p class="txt_content txt_grey text-center mabo0">
-          © 2020 Evangelical Restoration Church
-        </p>
-      </div>
+  <div class="container-fluid" id="section_footer_copy" style="background: #111111">
+    <div class="container-fluid">
+      <p class="txt_content txt_grey text-center mabo0">
+        © 2020 Evangelical Restoration Church
+      </p>
     </div>
+  </div>
 
-    <!--SECTION FOOTER ENDS-->
+  <!--SECTION FOOTER ENDS-->
 
-    <script src="js/jquery.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/sweetalert.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/sweetalert.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-    <script>
-      function openNav() {
-        document.getElementById("mySidebar").style.width = "250px";
-        document.getElementById("main").style.marginLeft = "250px";
-      }
+  <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
 
-      function closeNav() {
-        document.getElementById("mySidebar").style.width = "0";
-        document.getElementById("main").style.marginLeft = "0";
-      }
-    </script>
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft = "0";
+    }
+  </script>
 
-    <script>
-      $(".carousel").carousel();
-    </script>
+  <script>
+    $(".carousel").carousel();
+  </script>
 
-    <script>
-      function run(interval, frames) {
-        var int = 1;
+  <script>
+    function run(interval, frames) {
+      var int = 1;
 
-        function func() {
-          document.getElementById("h").id = "b" + int;
-          int++;
-          if (int === frames) {
-            int = 1;
-          }
-        }
-
-        var swap = window.setInterval(func, interval);
-      }
-
-      run(1000, 10); //milliseconds, frames
-    </script>
-
-    <script>
-      function sticky_relocate() {
-        var window_top = $(window).scrollTop();
-        var div_top = $("#sticky-anchor").offset().top;
-        if (window_top > div_top) {
-          $("#sticky").addClass("stick");
-          $("#sticky-anchor").height($("#sticky").outerHeight());
-        } else {
-          $("#sticky").removeClass("stick");
-          $("#sticky-anchor").height(0);
+      function func() {
+        document.getElementById("h").id = "b" + int;
+        int++;
+        if (int === frames) {
+          int = 1;
         }
       }
 
-      $(function () {
-        $(window).scroll(sticky_relocate);
-        sticky_relocate();
+      var swap = window.setInterval(func, interval);
+    }
+
+    run(1000, 10); //milliseconds, frames
+  </script>
+
+  <script>
+    function sticky_relocate() {
+      var window_top = $(window).scrollTop();
+      var div_top = $("#sticky-anchor").offset().top;
+      if (window_top > div_top) {
+        $("#sticky").addClass("stick");
+        $("#sticky-anchor").height($("#sticky").outerHeight());
+      } else {
+        $("#sticky").removeClass("stick");
+        $("#sticky-anchor").height(0);
+      }
+    }
+
+    $(function () {
+      $(window).scroll(sticky_relocate);
+      sticky_relocate();
+    });
+  </script>
+
+  <script>
+    $(document).ready(function () {
+      var owl = $("#owl-demo");
+
+      owl.owlCarousel();
+
+      // Custom Navigation Events
+      $(".next").click(function () {
+        owl.trigger("owl.next");
       });
-    </script>
-
-    <script>
-      $(document).ready(function () {
-        var owl = $("#owl-demo");
-
-        owl.owlCarousel();
-
-        // Custom Navigation Events
-        $(".next").click(function () {
-          owl.trigger("owl.next");
-        });
-        $(".prev").click(function () {
-          owl.trigger("owl.prev");
-        });
+      $(".prev").click(function () {
+        owl.trigger("owl.prev");
       });
-    </script>
+    });
+  </script>
 
-    <script>
-      new WOW().init();
-    </script>
-    <script>
-      $(document).on("click", function () {
-        $(".collapse").collapse("hide");
-      });
-    </script>
-  </body>
+  <script>
+    new WOW().init();
+  </script>
+  <script>
+    $(document).on("click", function () {
+      $(".collapse").collapse("hide");
+    });
+  </script>
+</body>
+
 </html>
